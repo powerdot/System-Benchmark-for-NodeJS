@@ -1,0 +1,30 @@
+{
+  "name": "mac-stress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "full": "node index.js --type full",
+    "queries": "node index.js --type queries",
+    "loadtest": "node index.js --type loadtest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.6.0",
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "autocannon": "^7.3.0",
+    "bcrypt": "^5.0.1",
+    "benchmark": "^2.1.4",
+    "brain.js": "^2.0.0-beta.2",
+    "cli-spinners": "^2.6.0",
+    "disk-stat": "^1.0.4",
+    "express": "^4.17.1",
+    "hdr-histogram-js": "^2.0.1",
+    "native-hdr-histogram": "^1.0.0",
+    "ora": "^5.4.0",
+    "sharp": "^0.28.2",
+    "yargs": "^17.0.1"
+  }
+}
