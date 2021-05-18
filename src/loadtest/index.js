@@ -7,6 +7,10 @@ module.exports = ({spinner})=>{
     return new Promise(async function(resolve){
         let table = [];
 
+        if(!fs.existsSync(__dirname+"/tests/test_space/")){
+            fs.mkdirSync(__dirname+"/tests/test_space");
+        }
+
         (await require("./tests/images")({suite, spinner}))
         require("./tests/text_files")({suite, spinner})
         require("./tests/ml")({suite, spinner})
