@@ -22,6 +22,8 @@ Libraries used:
 - bcrypt
 - crypto
 
+YouTube: [Air M1 (2020) vs Pro i5 (2019)](https://youtu.be/bZf77GLioV0)
+
 ## Here we go!
 ### Install dependencies
 ```bash
